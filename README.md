@@ -56,5 +56,5 @@ We are seeking a passionate Machine Learning Engineer with experience in Python,
 ## 💬 Let's Connect!
 Aryan Kadam
 📧 aryankadam@gmail.com
-🌐 LinkedIn
+🌐 https://www.linkedin.com/in/aryan-kadam-582a482a8
 
