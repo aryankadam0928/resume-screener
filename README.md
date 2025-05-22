@@ -47,10 +47,13 @@ streamlit run app.py
 Then open your browser and go to http://localhost:8501
 ```
 
-
 ## 📄 Sample Job Description
 Paste this in the app for testing:
 We are seeking a passionate Machine Learning Engineer with experience in Python, TensorFlow, and deep learning. The ideal candidate will have hands-on knowledge of CNNs, NLP, and data preprocessing. Experience with Git, cloud tools, and real-world ML projects is a plus.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## 💬 Let's Connect!
