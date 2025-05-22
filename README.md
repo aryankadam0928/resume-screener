@@ -1,21 +1,69 @@
-# AI Resume Screener
+# 🧠 AI Resume Screener
 
-This is an AI-powered resume screening tool built with Streamlit. It compares resumes with a given job description and ranks them based on relevance using NLP.
+A smart, AI-powered resume screening web app that helps recruiters quickly evaluate candidates based on job descriptions using Natural Language Processing (NLP) and BERT embeddings.
 
-## Features
-- Supports PDF and DOCX resumes
-- Uses BERT embeddings for accurate matching
-- Upload multiple resumes
-- Downloadable screening results
+## 🚀 Features
 
-## Run Locally
+- 📄 Upload multiple resumes (PDF or DOCX)
+- 📝 Paste any job description
+- 🤖 Match resumes using Sentence-BERT and cosine similarity
+- 📊 View candidate match scores in a table
+- 📥 Download screening results as CSV
+- 🧪 Fast, lightweight, and effective — ideal for hiring and hackathons!
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend/Backend**: [Streamlit](https://streamlit.io/)
+- **ML Model**: [Sentence-BERT](https://www.sbert.net/) (`all-MiniLM-L6-v2`)
+- **Parsing Tools**: PyPDF2, docx2txt
+- **Similarity Metric**: Cosine Similarity from Scikit-learn
+
+---
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/aryankadam0928/resume-screener.git
+cd resume-screener
+
+# (Optional) Create a virtual environment
+python -m venv venv
+# Activate the virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# Install the required libraries
 pip install -r requirements.txt
+▶️ Run the App
+bash
+Copy
+Edit
 streamlit run app.py
-```
+Then open your browser and go to http://localhost:8501
 
-## Demo
+📄 Sample Job Description
+Paste this in the app for testing:
 
-Paste your job description and upload resumes to get relevance scores and insights instantly.
-"# resume-screener" 
+text
+Copy
+Edit
+We are seeking a passionate Machine Learning Engineer with experience in Python, TensorFlow, and deep learning. The ideal candidate will have hands-on knowledge of CNNs, NLP, and data preprocessing. Experience with Git, cloud tools, and real-world ML projects is a plus.
+📷 Screenshots
+Add a screenshot of your app interface in an assets/ folder and link it like below:
+
+
+🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+📄 License
+This project is licensed under the MIT License.
+
+💬 Let's Connect!
+Aryan Kadam
+📧 aryankadam@gmail.com
+🌐 LinkedIn
